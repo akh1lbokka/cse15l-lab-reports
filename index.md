@@ -15,4 +15,6 @@ Moving files from your computer to the remote server is quite simple as well. Wh
 <img width="1009" alt="Screen Shot 2022-01-14 at 2 25 23 PM" src="https://user-images.githubusercontent.com/97696757/149593195-2bc4a3a8-5b4e-4b11-bb8c-5ce059465882.png">
 To make remote running more efficient, we can create an SSH key to not have to type in our password every time we ssh or scp from our client. I Did this by generating an SSH key, and placing the id in the remote server. Look at the images for the specific commands. Now I can ssh and scp much faster. 
 # Optimizing Remote Running
-
+<img width="1004" alt="Screen Shot 2022-01-14 at 2 45 48 PM" src="https://user-images.githubusercontent.com/97696757/149595003-0af462e3-10e2-4a28-a376-3b702d843359.png">
+In order to make the remote work process more efficient, you can type in commands directly after an ssh command to run it faaster. This way you do not have to wait 
+until you are connected to run the code. Also, you can run multiple commands in one line by separating them in by semicolons. These tips can help you be a more efficient remote worker- see the image above for examples. 
