@@ -1,7 +1,8 @@
-hi
-> This looks cooler
-`grey  background checl`
+# Installing VScode
+# Remotely Connecting
+# Trying Some Commands
+# Moving Files with scp
+# Setting an SSH Key
+# Optimizing Remote Running
 
-
-![Image](https://media.gq.com/photos/57b8767dc4fb86bf3ac6f391/3:2/w_775%2Cc_limit/nikeslead.jpg)
-hviy
+![Image](file:///Users/akhilbokka/Desktop/Screen%20Shot%202022-01-13%20at%2011.14.56%20AM.png)
