@@ -12,7 +12,7 @@
 The bug here is that the code does not check to see if the `(` immediately follows the `[link]`. This causes the program to get the string inside any parenthesis after the `[]`. In this test case, the code grabs a random string of code that is not meant to be a link, but is however enclosed within parenthesis. 
 
 ## Code Change No.2
-<img width="1272" alt="Screen Shot 2022-02-07 at 3 33 44 PM" src="https://user-images.githubusercontent.com/97696757/152891816-3dd73611-f122-4e26-9e45-7d002afe4a11.png">
+<img width="1270" alt="Screen Shot 2022-02-08 at 6 21 21 AM" src="https://user-images.githubusercontent.com/97696757/153005912-66265d8f-5267-4d8d-8c5e-457b795978c0.png">
 
 ### [Link to Failure Inducing Input](https://github.com/akh1lbokka/markdown-parse/blob/main/edge2.md)
 
