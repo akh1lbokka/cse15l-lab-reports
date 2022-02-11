@@ -12,7 +12,8 @@ In this screenshot, I used the command `scp -r (directory name) (ssh login):~/` 
 In this screenshot, I logged into my ssh by command `ssh (ssh login)` and then inputing my passphrase. After that, I changed my directory to the copied over markdownparse directory, and then ran the javac and java commands to compile and run the tests. As shown in the picture, the tests compiled and ran successfully.
 
 ## Show (like in the last step of the first lab) combining scp, ;, and ssh to copy the whole directory and run the tests in one line.
-<img width="1182" alt="Screen Shot 2022-02-10 at 4 12 59 PM" src="https://user-images.githubusercontent.com/97696757/153520609-05695067-9220-4de7-8ddf-d756c44a47fd.png">
+![Screen Shot 2022-02-10 at 4 37 39 PM](https://user-images.githubusercontent.com/97696757/153520795-e5493ef5-d179-4bfe-b5cd-e750edcb7335.png)
+
 
 In this picture, I logged out of ieng and went back to the markdown parse local directory. Since we can run multiple commands in succession to another in one go, I put all the required commands in the command line, and used `;` to separate them. The terminal asked for my password, and once put in, the tests immediately compiled and ran correctly!
 
