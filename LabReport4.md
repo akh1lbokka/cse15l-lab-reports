@@ -16,7 +16,7 @@ Here is the output of what happened when I ran the test method on my code. It di
 Here is the output of what happened when I ran the test method for the implementation I reviewed. It didn't pass.
 <img width="1058" alt="Screen Shot 2022-02-25 at 12 09 21 AM" src="https://user-images.githubusercontent.com/97696757/155678919-72565607-a6c3-4c1a-809b-ded780b490f5.png">
 
-
+Yes, I think it is possible for a quick fix for this code snippet. We could write a code that looks for a backtick pair, and parses that substring for links. If a pair is not found, ignore the backtick and go on with the getLinks code. 
 
 ## Second Snippet
 Here is the Screenshot of the Expected Output of the second code snippet, on CommonMark
@@ -31,6 +31,8 @@ Here is the output of what happened when I ran the test method on my code. It di
 Here is the output of what happened when I ran the test method for the implementation I reviewed. It didn't pass.
 <img width="1058" alt="Screen Shot 2022-02-25 at 12 09 31 AM" src="https://user-images.githubusercontent.com/97696757/155678928-546ba02e-39af-477e-8e96-f9d5ef28be44.png">
 
+No, I don't think the code can have a quick fix to be able to pass this code snippet. Matching up brackets and parenthesis would probably require a stack to be implemented. Furthermore, looking for a nested link would also require more code to be written, which cannot be done under 10 lines. 
+
 
 ## Third Snippet
 Here is the Screenshot of the Expected Output of the third code snippet, on CommonMark
@@ -44,4 +46,7 @@ Here is the output of what happened when I ran the test method on my code. It di
 
 Here is the output of what happened when I ran the test method for the implementation I reviewed. It didn't pass.
 <img width="1058" alt="Screen Shot 2022-02-25 at 12 09 39 AM" src="https://user-images.githubusercontent.com/97696757/155678947-f1ef6bcf-5909-470d-904e-7ed9008ff904.png">
+
+I do think a small change can be implemented for this code snippet. If we check for consecutive newlines within a bracket, and if the code detects it, we could avoid parsing that link. 
+
 
