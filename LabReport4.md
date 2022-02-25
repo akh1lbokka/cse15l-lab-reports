@@ -13,8 +13,9 @@ Here is my test method that runs the code snippet on my version of MarkdownParse
 Here is the output of what happened when I ran the test method on my code
 <img width="1139" alt="Screen Shot 2022-02-24 at 11 56 00 PM" src="https://user-images.githubusercontent.com/97696757/155677110-babc1617-5a1a-4eb8-b2a2-8cb146ce94b9.png">
 
-Here is the output of <img width="1058" alt="Screen Shot 2022-02-25 at 12 09 21 AM" src="https://user-images.githubusercontent.com/97696757/155678919-72565607-a6c3-4c1a-809b-ded780b490f5.png">
-what happened when I ran the test method for the implementation I reviewed
+Here is the output of what happened when I ran the test method for the implementation I reviewed
+<img width="1058" alt="Screen Shot 2022-02-25 at 12 09 21 AM" src="https://user-images.githubusercontent.com/97696757/155678919-72565607-a6c3-4c1a-809b-ded780b490f5.png">
+
 
 
 ## Second Snippet
