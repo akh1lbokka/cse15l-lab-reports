@@ -28,3 +28,5 @@ According to [CommonMark](https://spec.commonmark.org/dingus/), Joe's output is 
 ![Screen Shot 2022-03-11 at 4 04 34 PM](https://user-images.githubusercontent.com/97696757/157993988-1bbc11eb-7923-49db-a220-0a261059c1e3.png)
 
 I believe the bug comes from the code not checking if the closed parenthesis that carry the link is right after the square brackets. The problem with the highlighted code is that it is missing this check. To fix the code, I would add some lines that check if the closed parenthesis comes right after the square brackets. 
+
+[HomePage](https://akh1lbokka.github.io/cse15l-lab-reports/)
