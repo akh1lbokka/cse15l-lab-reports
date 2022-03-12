@@ -23,7 +23,8 @@ Here is my code's output:
 Here is Joe's code's output:
 ![Screen Shot 2022-03-11 at 3 56 56 PM](https://user-images.githubusercontent.com/97696757/157993557-c2e7c72e-ba63-4d29-8147-7fd21a9ea24a.png)
 
-According to [CommonMark](https://spec.commonmark.org/dingus/), Joe's output is correct. The test `\!\"\#\$\%\&\'\(\)\*\+\,\-\.\/\:\;\<\=\>\?\@\[\\\]\^\_\`\{\|\}\~` should not end up parsing, like Joe's code did not. My code did though, it parsed a single character. I have highlighted what I think is causing the bug below. 
+According to [CommonMark](https://spec.commonmark.org/dingus/), Joe's output is correct. The test `\!\"\#\$\%\&\'\(\)\*\+\,\-\.\/\:\;\<\=\>\?\@\[\\\]\^\_\` should not end up parsing, like Joe's code did not. My code did though, it parsed a single character. I have highlighted what I think is causing the bug below.
+
 ![Screen Shot 2022-03-11 at 4 04 34 PM](https://user-images.githubusercontent.com/97696757/157993988-1bbc11eb-7923-49db-a220-0a261059c1e3.png)
 
 I believe the bug comes from the code not checking if the closed parenthesis that carry the link is right after the square brackets. The problem with the highlighted code is that it is missing this check. To fix the code, I would add some lines that check if the closed parenthesis comes right after the square brackets. 
